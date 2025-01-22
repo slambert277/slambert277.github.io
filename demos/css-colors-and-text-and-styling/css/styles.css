@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: blue;
+    background-color: orange;
+    font-style:italic;
+    text-decoration: underline;
+}
+
+#second-paragraph {
+    color: red;
+    background color: pink;
+    font-size: 24px
+}  
+
+#third-paragraph {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    text-align: right;
+    text-decoration: line-through;
+    color: blueviolet;
+    font-family: serif;
+}
+
+#span1 {
+    color: crimson;
+    font-weight: bold;
+    font-size: 30px;
+    
+
+}
