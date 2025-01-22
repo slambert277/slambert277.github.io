@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#cool-dreams {
+    font-family: cursive;
+    text-align: center;
+}
+
+#cerulean-area {
+    background-color: #437C90;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#dark-slate-gray {
+    background-color: #255957;
+    color:white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+
+}
+
+#egg-shell {
+    background-color: #F0EAD6;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#golden-rod {
+    background-color: #A98743;
+    color:white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+
+}
+
+#saffron {
+    background-color: #F7C548;
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+
+}
+
+#ocean-breeze {
+    font-family: monospace;
+    text-align: center;
+}
+
+#paynes-gray {
+    background-color: #696D7D;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#cambridge-blue {
+    background-color: #6F9283;
+    color:white;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+
+}
+
+#cambridge-blue-2 {
+    background-color: #8D9F87;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#sage {
+    background-color: #CDC6A5;
+    color:white;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+
+}
+
+#almond {
+    background-color: #F0DCCA;
+    color:black;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+
+}
+#sea-shore {
+    font-family: unset;
+    text-align: center;
+}
+
+#celadon {
+    background-color: #74D3AE;
+    color: white;
+    font-family: unset;
+    text-align: center;
+    padding: 24px;
+}
+
+#asparagus {
+    background-color: #678D58;
+    color:white;
+    font-family: unset;
+    text-align: center;
+    padding: 24px;
+
+}
+
+#olivine {
+    background-color: #A6C48A;
+    color: black;
+    font-family: unset;
+    text-align: center;
+    padding: 24px;
+}
+
+#champagne {
+    background-color: #F6E7CB;
+    color:white;
+    font-family: unset;
+    text-align: center;
+    padding: 24px;
+
+}
+
+#coral-pink {
+    background-color: #DD97787;
+    color:black;
+    font-family: unset;
+    text-align: center;
+    padding: 24px;
+
+}
