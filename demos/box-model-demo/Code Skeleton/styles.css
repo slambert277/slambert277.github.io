@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border: 1px solid black;
+    margin: 24px;
+    padding: 24px 36px;
+    background-color: lightcoral;
+}
+
+p {
+    border: 20px dotted blue;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+}
