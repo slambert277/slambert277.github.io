@@ -1,0 +1,107 @@
+#bulletin-board {
+    background: url('../images/bulletin-board.jpg') no-repeat center center;
+    background-size: cover;
+    width: 800px; 
+    height: 500px; 
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 5px 5px 15px black;
+    position: relative; 
+}
+
+.post-it {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px black;
+    position: relative;
+    border-radius: 5px;
+}
+
+.orange { background-color: #ffcc80; }
+.pink { background-color: #ffb6c1; }
+.blue { background-color: #add8e6; }
+
+#bulletin-board {
+    background: url('../images/bulletin-board.jpg') no-repeat center center;
+    background-size: cover;
+    width: 800px; 
+    height: 500px; 
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 5px 5px 15px black;
+    position: relative; 
+}
+
+.post-it {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px black;
+    position: relative;
+    border-radius: 5px;
+}
+
+.orange { background-color: #ffcc80; }  
+.pink { background-color: #ffb6c1; } 
+.blue { background-color: #add8e6; }  
+.purple { background-color: #d8a6ff; }  
+
+.post-it.image {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.post-it.image img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.post-it.sunset-beach {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.post-it.sunset-beach img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
