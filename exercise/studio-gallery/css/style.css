@@ -1,80 +1,56 @@
-/* 📌 BULLETIN BOARD BACKGROUND */
-#bulletin-board {
-    background: url('../images/bulletin-board.jpg') no-repeat center center;
-    background-size: cover;
-    width: 800px; /* Adjust based on your background image */
-    height: 500px; /* Adjust based on your background image */
-    margin: 50px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.welcome-frame {
+    background-color: grey;
+    border: 5px solid black;
     padding: 20px;
-    border: 15px solid #a67c52; /* Wooden frame effect */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    position: relative; /* Ensures post-its are layered correctly */
+    text-align: center; 
+    margin: 20px;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif; 
+    color: black;
 }
 
-/* 📌 POST-IT NOTES */
-.post-it {
-    width: 150px;
-    height: 150px;
-    margin: 15px;
-    padding: 15px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    position: relative;
-    border-radius: 5px; /* Slightly rounded edges */
+.image-1 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px black;
+    margin: 40px;
+    margin-top: 20px;
+    border: white;
+    border: black;
 }
 
-/* 📌 POST-IT COLORS */
-.orange { background-color: #ffcc80; }
-.pink { background-color: #ffb6c1; }
-.blue { background-color: #add8e6; }
-.purple { background-color: #d8a6ff; }
-
-/* 📌 STICKY NOTE ROTATION EFFECT */
-.post-it:nth-child(odd) {
-    transform: rotate(-3deg);
-}
-.post-it:nth-child(even) {
-    transform: rotate(3deg);
+.image-2 {
+        width: 150px;
+        height: 150px;
+        border: 3px solid sienna;
+        box-shadow: 0px 4px 6px black;
+        margin: -5px;
 }
 
-/* 📌 IMAGE POST-IT */
-.post-it.image {
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image-3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px black;
+    margin: 40px;
+    margin-top: 20px;
+    border: 3px solid blue;
+}
+
+.featured-text-inner-frame {
+    background-color: grey;
+    border: 5px solid black;
     padding: 10px;
 }
-.post-it.image img {
-    max-width: 100%;
-    max-height: 100%;
-    border: 5px solid white;
-    border-radius: 5px;
-}
-
-/* 📌 MEDIA QUERY: MAKE RESPONSIVE */
-@media (max-width: 850px) {
-    #bulletin-board {
-        width: 100%;
-        height: auto;
-    }
-
-    .post-it {
-        width: 120px;
-        height: 120px;
-        font-size: 12px;
-    }
-}
-
 
