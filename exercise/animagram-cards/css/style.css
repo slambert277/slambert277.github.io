@@ -1,0 +1,102 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-2 {
+    background: white;
+    border-radius: 24px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    padding: 20px;
+    min-height: 530px;
+    width: 350px;
+    margin-top: 20px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.animagram-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.animagram-header .logo {
+    font-size: 24px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.animagram-header .brand-name {
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.profile-pic-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.card-style-2 h2 {
+    font-size: 20px;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.card-style-2 p {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 10px 15px;
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.animagram-footer i {
+    margin-right: 5px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
