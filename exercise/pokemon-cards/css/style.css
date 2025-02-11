@@ -45,6 +45,7 @@
 
 hr {
     border: none;
+    height: 2px;
     background: black;
     margin: 10px 0;
 }
