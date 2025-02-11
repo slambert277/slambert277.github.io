@@ -1,0 +1,128 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-3 {
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 16px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 5px solid black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 5px;
+    border-bottom: 3px solid black;
+}
+
+.card-style-3 img {
+    display: block;
+    margin: 8px auto;
+    width: 95%;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.details {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+    padding: 5px 10px;
+}
+
+.description {
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.attack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    padding: 12px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.08);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.attack .energy i {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.power {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.data {
+    font-size: 13px;
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+#pokemon-card-1 {
+    background: linear-gradient(to bottom, #A8E6A3, #4CAF50);
+    border: 8px solid #FFD700;
+}
+
+#pokemon-card-2 {
+    background: linear-gradient(to bottom, #DDA0DD, #9932CC);
+    border: 8px solid #FFD700;
+}
+
+#pokemon-card-3 {
+    background: linear-gradient(to bottom, #FF9966, #FF4500);
+    border: 8px solid #FFD700;
+}
+
+#pokemon-card-4 {
+    background: linear-gradient(to bottom, #ADD8E6, #4682B4);
+    border: 8px solid #FFD700;
+}
+
+.fa-leaf {
+    color: #228B22;
+}
+
+.fa-fire {
+    color: #FF4500;
+}
+
+.fa-droplet {
+    color: #1E90FF;
+}
+
+.fa-asterisk {
+    color: #A9A9A9;
+}
+
+
