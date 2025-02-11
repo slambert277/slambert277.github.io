@@ -13,7 +13,6 @@
     border-radius: 15px;
     padding: 16px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    border: 5px solid black;
     text-align: center;
     font-family: Arial, sans-serif;
     position: relative;
@@ -30,10 +29,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
-    padding: 10px 5px;
-    border-bottom: 3px solid black;
+    padding: 10px;
 }
 
 .card-style-3 img {
@@ -43,6 +41,12 @@
     max-height: 180px;
     object-fit: contain;
     border-radius: 8px;
+}
+
+hr {
+    border: none;
+    background: black;
+    margin: 10px 0;
 }
 
 .details {
@@ -65,10 +69,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid black;
-    padding: 12px;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.08);
+    padding: 10px;
     font-size: 15px;
     font-weight: bold;
 }
@@ -86,7 +87,11 @@
 .data {
     font-size: 13px;
     padding: 10px;
-    border-top: 2px solid black;
+}
+
+#pokemon-card-0 {
+    background: linear-gradient(to bottom, yellow, #4CAF50);
+    border: 8px solid #FFD700;
 }
 
 #pokemon-card-1 {
