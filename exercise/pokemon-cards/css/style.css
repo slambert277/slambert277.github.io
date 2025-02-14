@@ -31,16 +31,32 @@
     align-items: center;
     font-size: 20px;
     font-weight: bold;
-    padding: 10px;
+    padding: 10px 12px;
+}
+
+.pokemon-header .health {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.card-style-3 {
+    border-radius: 15px;
+    outline: 6px solid #FFD700;
 }
 
 .card-style-3 img {
     display: block;
     margin: 8px auto;
-    width: 95%;
-    max-height: 180px;
+    width: auto;
+    max-height: 160px;
     object-fit: contain;
     border-radius: 8px;
+}
+
+.card-style-3 .health i,
+.attack .energy i {
+    font-size: 24px;
 }
 
 hr {
@@ -70,9 +86,10 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 8px 12px;
     font-size: 15px;
     font-weight: bold;
+    border-radius: 8px;
 }
 
 .attack .energy i {
@@ -91,28 +108,19 @@ hr {
 }
 
 #pokemon-card-0 {
-    background: linear-gradient(to bottom, yellow, #4CAF50);
-    border: 8px solid #FFD700;
+    background: linear-gradient(to bottom, yellow, #FFD700, #4CAF50);
 }
-
 #pokemon-card-1 {
-    background: linear-gradient(to bottom, #A8E6A3, #4CAF50);
-    border: 8px solid #FFD700;
+    background: linear-gradient(to bottom, #A8E6A3, #7EC850, #4CAF50);
 }
-
 #pokemon-card-2 {
-    background: linear-gradient(to bottom, #DDA0DD, #9932CC);
-    border: 8px solid #FFD700;
+    background: linear-gradient(to bottom, #DDA0DD, #BA55D3, #9932CC);
 }
-
 #pokemon-card-3 {
-    background: linear-gradient(to bottom, #FF9966, #FF4500);
-    border: 8px solid #FFD700;
+    background: linear-gradient(to bottom, #FF9966, #FF6347, #FF4500);
 }
-
 #pokemon-card-4 {
-    background: linear-gradient(to bottom, #ADD8E6, #4682B4);
-    border: 8px solid #FFD700;
+    background: linear-gradient(to bottom, #ADD8E6, #5B9BD5, #4682B4);
 }
 
 .fa-leaf {
