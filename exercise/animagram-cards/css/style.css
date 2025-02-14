@@ -52,8 +52,8 @@
 }
 
 .profile-pic-container img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
     margin-top: 10px;
@@ -71,6 +71,13 @@
     margin: 5px 10px 15px;
 }
 
+.card-style-2 .animagram-header .logo {
+    font-size: 42px;
+    width: 70px; 
+    height: 70px;
+    line-height: 70px;
+}
+
 .animagram-footer {
     display: flex;
     justify-content: space-between;
@@ -79,24 +86,33 @@
     padding-top: 10px;
 }
 
-.animagram-footer i {
-    margin-right: 5px;
+.footer-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
-    align-items: flex-start; 
     gap: 24px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 #section-2 {
+    background: url("../images/paw-prints.jpg") no-repeat center center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
