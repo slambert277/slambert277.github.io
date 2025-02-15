@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    padding: 10px 15px;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: inherit;
+}
+
+.cta-button {
+    padding: 12px 20px;
+    background-color: #FFD700;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.earthy {
+    background-color: #54594A;
+    color: white;
+}
+
+.warm {
+    background-color: #BF643D;
+    color: white;
+}
+
+.spooky {
+    background-color: black;
+    color: #F27405;
+}
+
+.spooky-categories {
+    background-color:  black;
+    color: white;
+}
+
+.promo {
+    background-color: #F27405;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
