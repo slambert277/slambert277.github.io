@@ -58,6 +58,7 @@ header h2 {
 
 .team img {
     width: 200px;
+    height: 250px;
     height: auto;
     border: 1.5px solid black;
     border-radius: 10px;
