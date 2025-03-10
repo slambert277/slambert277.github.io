@@ -63,8 +63,9 @@ window.onkeydown = function(event) {
         case "s":
             reactToJumpLeftButton();
             break;
-        case "":
+        case "j":
             reactToAttackButton();
             break;
+
     }
 }
