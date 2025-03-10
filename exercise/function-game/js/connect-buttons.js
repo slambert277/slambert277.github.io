@@ -51,7 +51,7 @@ window.onkeydown = function(event) {
         case "a":
             reactToMoveLeftButton();
             break;
-        case "s":
+        case "l":
             reactToJumpDownButton();
             break;
         case "w":
@@ -60,7 +60,7 @@ window.onkeydown = function(event) {
         case "d":
             reactToJumpRightButton();
             break;
-        case "s":
+        case "t":
             reactToJumpLeftButton();
             break;
         case "j":
